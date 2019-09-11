@@ -4,7 +4,7 @@ A library to parse mathematical equations in C.
 ## Usage
 ------------------
 ### Supported Operations
-`+ - * / % ^ ( ) sin cos tan csc sec cot asin acos atan min max`
+`+ - * / % ^ ( ) .(decimal) -(negative) sin cos tan csc sec cot asin acos atan min max`
 
 ### `token_t tokenize(const char* exp);`
 This function takes in a C string and tokenizes and returns the head of a linked list of `token_t`s.
