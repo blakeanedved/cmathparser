@@ -3,7 +3,7 @@
 
 int main(){
 	
-	char* exp;
+	char* exp = (char*)malloc(sizeof(char));
 
 	printf("Enter a Mathematical Expression >> ");
 	scanf("%s", exp);
